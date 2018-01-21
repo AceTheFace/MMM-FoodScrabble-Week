@@ -3,7 +3,7 @@ var request = require('request');
 
 module.exports = NodeHelper.create({
   start: function () {
-    console.log('mmm-json-feed helper started...');
+    console.log('mmm-foodscrabble-week helper started...');
   },
 
   getStats: function (url) {
